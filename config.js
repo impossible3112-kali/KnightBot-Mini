@@ -13,18 +13,18 @@ module.exports = {
     sessionName: 'session',
     sessionID: process.env.SESSION_ID || '',
     newsletterJid: '120363161513685998@newsletter', // Newsletter JID for menu forwarding
-    updateZipUrl: 'https://github.com/mruniquehacker/KnightBot-Mini/archive/refs/heads/main.zip', // URL to latest code zip for .update command
+    updateZipUrl: 'https://github.com/impossible3112-kali/KnightBot-Mini/archive/refs/heads/main.zip', // URL to latest code zip for .update command
     
     // Sticker Configuration
-    packname: 'Knight Bot Mini',
+    packname: 'Deekaytee Bot Mini',
     
     // Bot Behavior
     selfMode: false, // Private mode - only owner can use commands
-    autoRead: false,
-    autoTyping: false,
+    autoRead: true,
+    autoTyping: true,
     autoBio: false,
-    autoSticker: false,
-    autoReact: false,
+    autoSticker: true,
+    autoReact: true,
     autoReactMode: 'bot', // set bot or all via cmd
     autoDownload: false,
     
