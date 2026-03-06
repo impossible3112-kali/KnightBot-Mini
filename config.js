@@ -79,11 +79,4 @@ module.exports = {
     // Limits
     maxWarnings: 3,
     
-    // Social Links (optional)
-    social: {
-      github: 'https://github.com/mruniquehacker',
-      instagram: 'https://instagram.com/yourusername',
-      youtube: 'http://youtube.com/@mr_unique_hacker'
-    }
-};
   
